@@ -1,0 +1,45 @@
+
+ h1{
+    display: none;
+
+ }
+
+ @media screen and (min-width: 500px) and (max-width: 576px){
+    .mobile{
+        display: block;
+    }
+    
+    body{
+        background-color: rgb(12, 251, 111);
+    }
+ }
+
+ @media screen and (min-width: 577px) and (max-width: 976px){
+    .tablet{
+        display: block;
+    }
+    
+    body{
+        background-color: rgb(201, 168, 37);
+    }
+ }
+
+ @media screen and (min-width: 977px) and (max-width: 1200px){
+    .laptop{
+        display: block;
+    }
+    
+    body{
+        background-color: aqua;
+    }
+ }
+
+ @media screen and (min-width: 1201px) and (max-width: 1500px){
+    .desktop{
+        display: block;
+    }
+    
+    body{
+        background-color: rgb(215, 12, 16);
+    }
+ }
